@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Playball');
+
+#subtitle {
+    font-family: 'Playball', cursive;
+    font-size: 3.5rem;
+    /* font-style: italic; */
+}
