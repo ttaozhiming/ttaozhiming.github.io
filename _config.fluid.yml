@@ -1,0 +1,89 @@
+index:
+	slogan:
+		enable: true
+		text: taozhiming's blog
+	
+	banner_img: /img/bg.jpg
+
+navbar:
+	blog_title: taozhiming
+
+	menu:
+		- { key: "home", link: "/", icon: "iconfont icon-home-fill" }
+		- { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+		- { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+		- { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+		- { key: 'links', link: '/links/', icon: 'iconfont icon-link-fill' }
+    - { key: 'about', link: 'about', icon: 'iconfont icon-link-fill' }
+
+links:
+  items:
+    - {
+      title: 'linyihdfj',
+      intro: "linyihdfj's blog",
+      link: 'https://www.cnblogs.com/linyihdfj/',
+      avatar: '/img/linyihdfj.png'
+    }
+    - {
+      title: 'EXODUS',
+      intro: "EXODUS's blog",
+      link: 'https://www.cnblogs.com/-Complex-',
+      avatar: '/img/EXODUS.jpg'
+    }
+    - {
+      title: 'Cus-Shine',
+      intro: "Cus-Shine's blog",
+      link: 'https://blog.xinzirui.cn/',
+      avatar: '/img/xinzirui.webp'
+    }
+    - {
+      title: 'cloxier',
+      intro: "cloxier's blog",
+      link: 'https://cloxier.hystudio.group/',
+      avatar: 'https://cravatar.cn/avatar/ddb181d0025f87fde572dca12ccb1888?s=96&d=mm&r=g'
+    }
+    - {
+      title: 'XiaU',
+      intro: "XiaU's blog",
+      link: 'https://summace.cc/',
+      avatar: '/img/XiaU.jpg'
+    }
+    - {
+      title: 'KingPowers',
+      intro: "KingPowers's blog",
+      link: 'https://www.luogu.com.cn/blog/los114514/',
+      avatar: '/img/KingPowers.jpg'
+    }
+  default_avatar: /img/avatar.png
+
+  banner_img: /img/bg.jpg
+
+
+post:
+  banner_img: /img/bg.jpg
+
+  math:
+    enable: true
+    specific: false
+    engine: katex
+
+archive:
+  banner_img: /img/bg.jpg
+
+category:
+  banner_img: /img/bg.jpg
+
+tag:
+  banner_img: /img/bg.jpg
+
+page:
+  banner_img: /img/bg.jpg
+
+page404:
+  banner_img: /img/bg.jpg
+
+
+favicon: /img/favicon.ico
+
+custom_css: /static/font.css
+custom_js: /static/font.js
